@@ -1,0 +1,79 @@
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/User1/IdeaProjects/Ababill-automation">
+        <classes>
+            <class name="tests.Applications">
+                <methods>
+                    <include name="Notification"/>
+                    <include name="FAQmanage"/>
+                    <include name="VerifyRating"/>
+                    <include name="Link"/>
+                </methods>
+            </class>
+            <class name="tests.Business">
+                <methods>
+                    <include name="testCalculateInterest"/>
+                    <include name="testBusinessDetails"/>
+                    <include name="testNewBusinessRequest"/>
+                </methods>
+            </class>
+            <class name="tests.GuestLogin">
+                <methods>
+                    <include name="guestLogin"/>
+                </methods>
+            </class>
+            <class name="tests.Imam">
+                <methods>
+                    <include name="testImam"/>
+                    <include name="testImamErrorHandling"/>
+                </methods>
+            </class>
+            <class name="tests.Login">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+            <class name="tests.ManageInputs">
+                <methods>
+                    <include name="Country"/>
+                    <include name="State"/>
+                    <include name="City"/>
+                    <include name="VotingWard"/>
+                    <include name="Role"/>
+                    <include name="Inputs"/>
+                    <include name="ZakatQuestions"/>
+                    <include name="UlamaRole"/>
+                    <include name="Businesstype"/>
+                    <include name="Relation"/>
+                </methods>
+            </class>
+            <class name="tests.Member">
+                <methods>
+                    <include name="testMember"/>
+                </methods>
+            </class>
+            <class name="tests.Mosque">
+                <methods>
+                    <include name="testMosque"/>
+                    <include name="newMosque"/>
+                </methods>
+            </class>
+            <class name="tests.Trustee">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                </methods>
+            </class>
+            <class name="tests.Ulama">
+                <methods>
+                    <include name="testUlama"/>
+                    <include name="testInvalidLogin"/>
+                </methods>
+            </class>
+            <class name="tests.Zakat">
+                <methods>
+                    <include name="GoldandSilver"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
